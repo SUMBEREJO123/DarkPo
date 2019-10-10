@@ -33,7 +33,7 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.01)
 
-logo = " \x1b[1;91m█████████\n \x1b[1;91m█▄█████▄█         \x1b[1;95m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●\n \x1b[1;91m█ \x1b[1;95m▼▼▼▼▼  \x1b[1;95m- _ --_-- \x1b[1;91m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ \n \x1b[1;91m█  \x1b[1;95m  \x1b[1;95m_-_-- -_ --__ \x1b[1;91m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗\n \x1b[1;91m█ \x1b[1;95m▲▲▲▲▲ \x1b[1;95m--  - _ -- \x1b[1;91m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝  \x1b[1;94mPRO\n \x1b[1;91m█████████         \x1b[1;95m«==========✧==========»\n \x1b[1;91m ██ ██\n \x1b[1;95m╔════════════════════════════════════════════════╗\n \x1b[1;95m║ \x1b[1;93m*  \x1b[1;94mReCode   \x1b[1;91m:  \x1b[1;96m NUR  \x1b[1;95m                     ║\n \x1b[1;95m║ \x1b[1;93m*  \x1b[1;94mGitHub   \x1b[1;91m:  \x1b[1;92m \x1b[92mhttps://github.com/SUMBEREJO123\x1b[\x1b[1;95m    ║\n \x1b[1;95m║ \x1b[1;93m*  \x1b[1;94mFB       \x1b[1;91m:   \x1b[1;92\x1b[92mhttps://m.facebook.com/AbdullahNuryadin\x1b[\x1b[1;95m║\n \x1b[1;95m║ \x1b[1;93m*  \x1b[1;94mYoutube  \x1b[1;91m:   \x1b[1;92\x1b[92mCALON PRO GAMING                  \x1b[\x1b[1;95m║  \n \x1b[1;95m╚════════════════════════════════════════════════╝"  '\n\x1b[1;91m[!] Silahkan Login Di Browser Agar Tidak Kena Checkpoint\n'
+logo = " \x1b[1;91m█████████\n \x1b[1;91m█▄█████▄█         \x1b[1;95m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●\n \x1b[1;91m█ \x1b[1;95m▼▼▼▼▼  \x1b[1;95m- _ --_-- \x1b[1;91m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ \n \x1b[1;91m█  \x1b[1;95m  \x1b[1;95m_-_-- -_ --__ \x1b[1;91m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗\n \x1b[1;91m█ \x1b[1;95m▲▲▲▲▲ \x1b[1;95m--  - _ -- \x1b[1;91m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝  \x1b[1;94mPRO\n \x1b[1;91m█████████         \x1b[1;95m«==========✧==========»\n \x1b[1;91m ██ ██\n \x1b[1;95m╔════════════════════════════════════════════════╗\n \x1b[1;95m║ \x1b[1;93m*  \x1b[1;94mReCode   \x1b[1;91m:  \x1b[1;96mSisantuy  \x1b[1;95m                     ║\n \x1b[1;95m║ \x1b[1;93m*  \x1b[1;94mGitHub   \x1b[1;91m:  \x1b[1;92m \x1b[92mhttps://github.com/SUMBEREJO123\x1b[\x1b[1;95m    ║\n \x1b[1;95m║ \x1b[1;93m*  \x1b[1;94mFB       \x1b[1;91m:   \x1b[1;92\x1b[92mhttps://m.facebook.com/AbdullahNuryadin\x1b[\x1b[1;95m║\n \x1b[1;95m║ \x1b[1;93m*  \x1b[1;94mYoutube  \x1b[1;91m:   \x1b[1;92\x1b[92mCALON PRO GAMING                  \x1b[\x1b[1;95m║  \n \x1b[1;95m╚════════════════════════════════════════════════╝"  '\n\x1b[1;91m[!] Silahkan login akun kalian di browser\n'
 
 def tik():
     titik = [
@@ -161,10 +161,10 @@ def menu():
     print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m FBID \x1b[1;91m: \x1b[1;92m' + id + (39 - len(id)) * '\x1b[1;97m ' + '║'
     print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Subs \x1b[1;91m: \x1b[1;92m' + sub + (39 - len(sub)) * '\x1b[1;97m ' + '║'
     print '\x1b[1;97m╠' + 50 * '\xe2\x95\x90' + '╝'
-    print '║-> \x1b[1;37;40m1. User Information'
-    print '║-> \x1b[1;37;40m2. Hack Facebook Account'
+    print '║-> \x1b[1;37;40m1. info akun [harus berteman]'
+    print '║-> \x1b[1;37;40m2. Hack Akun Fb'
     print '║-> \x1b[1;37;40m3. Bot'
-    print '║-> \x1b[1;37;40m4. Others'
+    print '║-> \x1b[1;37;40m4. Tools lain'
     print '║-> \x1b[1;37;40m5. Logout'
     print '║-> \x1b[1;37;40m★  Next Fitur(Coming Soon)'
     print '║-> \x1b[1;31;40m0. Exit'
@@ -200,7 +200,7 @@ def pilih():
                         else:
                             if zedd == '6':
                                 os.system('rm -rf login.txt')
-				os.system('xdg-open https://m.facebook.com/S1S4NTUY')
+				os.system('xdg-open https://m.facebook.com/AbdullahNuryadin')
                                 keluar()
                             else:
                                 if zedd == '0':
